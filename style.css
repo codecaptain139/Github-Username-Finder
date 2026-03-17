@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #bac8ff;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#username{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+#searchbtn{
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#searchbtn:hover{
+    background-color: #748ffc;
+    color: white;
+}
