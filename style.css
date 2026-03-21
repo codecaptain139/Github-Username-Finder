@@ -10,12 +10,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
+
 .container{
+    width: 100%;
+    max-width: 400px;
     padding: 40px;
     border-radius: 10px;
-    background-color: #bac8ff;
+    background-color: #15aabf;
 }
 
 h1{
@@ -42,6 +45,35 @@ form{
 }
 
 #searchbtn:hover{
-    background-color: #748ffc;
-    color: white;
+    background-color: #66d9e8;
+}
+
+img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.user-card{
+    padding: 18px;
+    margin: 18px;
+    background-color: #e3fafc;
+    border-radius: 8px;
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .user-card{
+        margin: 10px;
+        padding: 12px;
+    }
 }
